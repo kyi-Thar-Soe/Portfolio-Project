@@ -12,9 +12,9 @@ export default function Portfolio() {
             <Route path="/" element={<DefaultLayout/>}>
                 <Route index element={<HomePage/>}/>
                 <Route path="home" element={<HomePage/>}/>
-                <Route path="about" element={<AboutPage/>}/> 
-                <Route path="portfolio" element={<PortfolioPage/>}/>
-                <Route path="contact" element={<ContactPage/>}/>
+                <Route path="/about" element={<AboutPage/>}/> 
+                <Route path="/portfolio" element={<PortfolioPage/>}/>
+                <Route path="/contact" element={<ContactPage/>}/>
             </Route>
         </Routes>
         </BrowserRouter>
