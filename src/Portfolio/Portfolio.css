@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
+:root{
+     --roboto: 'Roboto' , sans-serif;
+}
+body{
+    font-family: var(--roboto);
+}
+header{
+    position: sticky;
+    top:0;
+}
+.textColor{
+    color: #a651c2;
+}
+.fontColor{
+    color: #807d81;
+}
+.fontColors{
+    color: black;
+}
+.contact{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+
+}
+.fa-brands{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #424142;
+    text-shadow: 1px 1px 6px #a651c2;
+}
